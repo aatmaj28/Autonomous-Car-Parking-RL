@@ -36,6 +36,18 @@ The CarAgent begins each episode at a random position and orientation, introduci
    - Current Position - X
    - Current Position - Y
 
+2. Action Space
+   - Torque
+   - Steer Angle
+
+3. Reward System
+   - Proximity to Target
+   - Alignment with Target
+   - Smooth Driving
+   - Stationary Penalty
+   - Collision Penalty
+   - Goal Rewards
+
 ## Algorithms used for neural network training:-
 
 ### 1. TD3 (Twin Delayed Deep Deterministic Policy Gradient)
