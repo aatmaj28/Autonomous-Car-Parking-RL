@@ -3,6 +3,6 @@ This project focuses on applying advanced reinforcement learning (RL) algorithms
 
 We worked on this as a part of our course project for CS5180 - Reinforcement Learning and Sequential Decision Making (Fall 2024) at Northeastern University, Boston.
 
-The Environement
+## The Environment
 
 The elements of the parking lots were created using Unity's built-in tools. For the cars, ready-made models from the “Low Poly Soviet Cars Pack” were used.
