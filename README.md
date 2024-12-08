@@ -30,6 +30,13 @@ The CarAgent begins each episode at a random position and orientation, introduci
 
 ### 1. TD3 (Twin Delayed Deep Deterministic Policy Gradient)
 
+Twin Delayed Deep Deterministic Policy Gradient (TD3) is an advanced reinforcement learning algorithm that addresses overestimation bias in value function approximation. It improves upon DDPG using three key strategies:
+
+1. Clipped Double Q-Learning: Two Critic networks independently estimate Q-values, and the minimum of the two is used as the target, reducing overestimation bias.
+2. Target Policy Smoothing: Noise is added to the target Actor’s actions to avoid overfitting to Critic errors and ensure smoother updates.
+3. Delayed Policy Updates: The Actor network is updated less frequently than the Critic networks, allowing the Critic to converge better before influencing the policy.
+
+In this project, TD3 is used to train the agent for autonomous car parking. By leveraging these techniques, the algorithm enables efficient learning of throttle and steering actions, achieving robust performance in complex parking scenarios.
 
 
 
