@@ -6,3 +6,6 @@ We worked on this as a part of our course project for CS5180 - Reinforcement Lea
 ## The Environment
 
 The elements of the parking lots were created using Unity's built-in tools. For the cars, ready-made models from the “Low Poly Soviet Cars Pack” were used.
+
+![Project Diagram](Images/RL-1.png)
+
