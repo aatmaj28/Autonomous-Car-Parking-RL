@@ -9,6 +9,11 @@ The elements of the parking lots were created using Unity's built-in tools. For 
 
 ![Project Diagram](Images/RL-Cars.png)
 
+<div align="center">
+  <img src="Images/RL-Cars.png" alt="Project Diagram" width="60%" />
+</div>
+
+
 The parking lot environment is designed to include walls, parking lines, and designated parking spots. At the start of each episode, the car is placed at a random position and orientation in a large area outside the parking lot. To facilitate spatial awareness, the car is equipped with a Ray Perception Sensor mounted on top, which emits 50 rays in a 360-degree pattern. The environment consists of 12 parking spots, with 11 spots randomly occupied by parked cars, leaving one spot empty. The agent's objective is to identify and park in the empty spot during each episode.
 
 ![Project Diagram](Images/RL-1.png)
