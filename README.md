@@ -26,6 +26,16 @@ The CarAgent begins each episode at a random position and orientation, introduci
   <img src="Images/RL-2.png" alt="Project Diagram" width="60%" />
 </div>
 
+## State space, Action space and the Reward System:-
+
+1. State Space
+   - 50 Ray Perception Values
+   - Current Torque
+   - Current Steer Angle
+   - Current Orientation
+   - Current Position - X
+   - Current Position - Y
+
 ## Algorithms used for neural network training:-
 
 ### 1. TD3 (Twin Delayed Deep Deterministic Policy Gradient)
@@ -41,4 +51,16 @@ In this project, TD3 is used to train the agent for autonomous car parking. By l
 
 
 ### 2. Options Critic Algorithm
+
+
+## The trained CarAgent in action:-
+
+![Video Preview](assets/video-preview.gif)
+
+<div align="center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/example" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
+
 
