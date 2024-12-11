@@ -1,7 +1,7 @@
 # Advanced reinforcement learning algorithms for precise car navigation and parking
-This project focuses on applying advanced reinforcement learning (RL) algorithms, such as TD3 and Options Critic, to a realistic modern problem: autonomous car parking. We developed a custom parking lot environment, incorporating sensors and physics-based interactions to simulate a highly realistic scenario. The use of advanced RL algorithms proved effective, as the agent demonstrated significant progress in learning within just a few episodes. In contrast, basic RL algorithms required significantly more episodes—up to ten times as many—to achieve a comparable level of learning. 
+This project focuses on applying advanced reinforcement learning (RL) algorithm, such as TD3, to a realistic modern problem: autonomous car parking. I developed a custom parking lot environment, incorporating sensors and physics-based interactions to simulate a highly realistic scenario. The use of advanced RL algorithm proved effective, as the agent demonstrated significant progress in learning within just a few episodes. In contrast, basic RL algorithms required significantly more episodes—up to ten times as many—to achieve a comparable level of learning. 
 
-We worked on this as a part of our course project for CS5180 - Reinforcement Learning and Sequential Decision Making (Fall 2024) at Northeastern University, Boston.
+I worked on this as a part of our course project for CS5180 - Reinforcement Learning and Sequential Decision Making (Fall 2024) at Northeastern University, Boston.
 
 ## The Environment
 
@@ -48,9 +48,9 @@ The CarAgent begins each episode at a random position and orientation, introduci
    - Collision Penalty
    - Goal Rewards
 
-## Algorithms used for neural network training:-
+## Algorithm used for neural network training:-
 
-### 1. TD3 (Twin Delayed Deep Deterministic Policy Gradient)
+### TD3 (Twin Delayed Deep Deterministic Policy Gradient)
 
 Twin Delayed Deep Deterministic Policy Gradient (TD3) is an advanced reinforcement learning algorithm that addresses overestimation bias in value function approximation. It improves upon DDPG using three key strategies:
 
@@ -60,17 +60,10 @@ Twin Delayed Deep Deterministic Policy Gradient (TD3) is an advanced reinforceme
 
 In this project, TD3 is used to train the agent for autonomous car parking. By leveraging these techniques, the algorithm enables efficient learning of throttle and steering actions, achieving robust performance in complex parking scenarios.
 
+## "Scripts" folder consists of all C# and Python codes used to training the agent in the environment. 
+C# code has Unity specific implementation whereas Python files include the TD3 neural network implementation.
 
 
-### 2. Options Critic Algorithm
-
-
-## The trained CarAgent in action:-
-
-![Video Preview](assets/video-preview.gif)
-
-<div align="center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/example" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 
